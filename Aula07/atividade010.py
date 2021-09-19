@@ -1,3 +1,2 @@
-reais = float(input('Digite algume valor: '))
-dol = reais / 3,27
-print ('Essa é o valor de R$ {} reais passado a dólares é US$ {}'.format(reais,dol))
+din = float (input('Quanto você tem na carteira:R$'))
+print(f'Com R${din:.2f} você pode comprar US${din / 3.27:.2f}')
